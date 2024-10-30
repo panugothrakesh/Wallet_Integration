@@ -8,10 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
-      },
+      backgroundImage: {
+        'page-gradient': "linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%)",
+      }
     },
   },
   plugins: [],
